@@ -1,18 +1,21 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: minimal-ingress
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+  name: rdicidr
+  
+  namespace: production
+ # annotations:
+ #   nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
-  ingressClassName: nginx-example
+ # ingressClassName: nginx
   rules:
+  - host: fsl-challenge.me
   - http:
       paths:
-      - path: /testpath
+      - path: /
         pathType: Prefix
         backend:
           service:
-            name: test
-            port:
-              number: 80
+            name: rdicidr
+            port: 
+              number: 8080

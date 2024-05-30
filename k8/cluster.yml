@@ -1,0 +1,9 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: dev #cluster name
+  region: us-east-2 #desired region
+nodeGroups:
+  - name: fsl #cluster node group name
+    instanceType: t2.micro #desired instance type
+    desiredCapacity: 2 #desired nodes count / capacity
