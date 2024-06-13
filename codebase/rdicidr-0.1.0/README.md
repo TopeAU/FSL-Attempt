@@ -1,6 +1,6 @@
 # rdiCidr
 
-Ok, let's get this out of the way. Why did I choose that name? I choosen the name  to update because palindromes are fun. The app's name stands for RDerik's Interactive  CIDR (RDICIDR). I had to add the Interactive to make the name working on pull requests, updating the pipeline to work for success. I hope you like it.This is a wonderful name no cap. communication is important to humanity . it is important.
+Ok, let's get this out of the way. Why did I choose that name? I choosen the name  to update because palindromes are fun. The app's name stands for RDerik's Interactive  CIDR (RDICIDR). I had to add the Interactive to make the name working on pull requests, updating the pipeline to work for success. I hope you like it.This is a wonderful name no cap. communication is important to humanity . it is important. track work always
 
 RDICIDR is a react-app, but if you want to focus on the subnetting code, check the file:
 
